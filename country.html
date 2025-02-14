@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del País</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="country-name">Nombre del País</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="country-details">
+        <div class="country-details-container">
+            <img id="country-flag" alt="Bandera">
+            <div id="country-info"></div>
+        </div>
+        <div id="country-map"></div>
+    </main>
+
+    <footer>
+        <div id="country-map"></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="models/countryModel.js"></script>
+    <script src="views/countryView.js"></script>
+</body>
+
+</html>
